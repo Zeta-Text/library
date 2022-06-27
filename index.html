@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id=container>
+        <div id="header">
+            My Library
+        </div>
+    </div>
+    <div id=sidebar>
+        <form>
+            <div class=formbox>
+                <label for="title">Title</label>
+                <input type="text" id=title placeholder="Title"/>
+            </div>
+            <div class=formbox>
+                <label for="author">Author</label>
+                <input type="text" id=author placeholder="Author"/>
+            </div>
+            <div class=formbox>
+                <label for="genre">Genre</label>
+                <input type="text" id=genre placeholder="genre"/>
+            </div>
+            <div class=formbox>
+                Mark Complete?
+                <label for="status" class="switch">
+                <input class ="status" type="checkbox" id="status" name="status" value="Complete">
+                <span class="slider round"></span>
+                </label>
+            </div>
+            <div class=formbox>
+                <button id=btn>Add Book</button>
+
+            </div>
+        </form>
+    </div>
+    <div id=cardcontainer>
+        
+    </div>
+</body>
+<script src="script.js"></script> 
+</html>
